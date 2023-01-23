@@ -1,5 +1,5 @@
 {% set name = "pytask-stata" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytask_stata-{{ version }}.tar.gz
-  sha256: 1b1979730c37c0fc16d8a8511247cf09847d1755209fef302b9bef32a7968121
+  sha256: 078a72658515d061f5f46990415549e3396b55ccff42d968855314acd4222fa2
 
 build:
   number: 0
@@ -22,7 +22,9 @@ requirements:
     - setuptools_scm
     - toml
   run:
-    - pytask >=0.2
+    - click
+    - pluggy
+    - pytask >=0.3
     - python >=3.7
 
 test:
