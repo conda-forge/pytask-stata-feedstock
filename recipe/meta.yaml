@@ -22,7 +22,9 @@ requirements:
     - setuptools_scm
     - toml
   run:
-    - pytask >=0.2
+    - click
+    - pluggy
+    - pytask >=0.3
     - python >=3.7
 
 test:
