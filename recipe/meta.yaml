@@ -19,8 +19,8 @@ requirements:
   host:
     - pip
     - python >=3.8
-    - setuptools_scm
-    - toml
+    - hatchling
+    - hatch-vcs
   run:
     - click
     - pluggy
