@@ -1,5 +1,5 @@
 {% set name = "pytask-stata" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytask_stata-{{ version }}.tar.gz
-  sha256: 078a72658515d061f5f46990415549e3396b55ccff42d968855314acd4222fa2
+  sha256: 04fa9527889c9e236fcabee72f6085429305f51cbb78e405bcdb2f24d30bfdc3
 
 build:
   number: 0
@@ -18,14 +18,14 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
-    - setuptools_scm
-    - toml
+    - python >=3.8
+    - hatchling
+    - hatch-vcs
   run:
     - click
     - pluggy
-    - pytask >=0.3
-    - python >=3.7
+    - pytask >=0.4
+    - python >=3.8
 
 test:
   imports:
