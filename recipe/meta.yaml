@@ -1,6 +1,5 @@
 {% set name = "pytask-stata" %}
 {% set version = "0.5.0" %}
-{% set python_min = "3.8" %}
 
 
 package:
