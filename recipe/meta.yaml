@@ -22,9 +22,8 @@ requirements:
     - hatchling
     - hatch-vcs
   run:
-    - click
-    - pluggy
-    - pytask >=0.4
+    - click >=8.1.8,!=8.2.0
+    - pytask >=0.5.2
     - python >={{ python_min }}
 
 test:
