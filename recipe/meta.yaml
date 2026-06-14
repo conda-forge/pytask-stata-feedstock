@@ -1,5 +1,5 @@
 {% set name = "pytask-stata" %}
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pytask_stata-{{ version }}.tar.gz
-  sha256: 2044f8d68200dd085fb14f220d0387a1c783d9575d69cd7e744b9578c0ad68e2
+  sha256: ab1d0e9294fc1303dc0e0cdc5e349a293d6abc7330c2fa7dd12fa91d62ef7423
 
 build:
   number: 0
